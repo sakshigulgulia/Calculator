@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EC6646E828B468C40056D318 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC6646E728B468C40056D318 /* main.cpp */; };
+		EC6646F428B469580056D318 /* Calc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EC6646F228B469580056D318 /* Calc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		EC6646E428B468C40056D318 /* Calculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Calculator; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC6646E728B468C40056D318 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC6646F228B469580056D318 /* Calc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Calc.cpp; sourceTree = "<group>"; };
+		EC6646F328B469580056D318 /* Calc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Calc.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				EC6646E728B468C40056D318 /* main.cpp */,
+				EC6646F228B469580056D318 /* Calc.cpp */,
+				EC6646F328B469580056D318 /* Calc.hpp */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6646F428B469580056D318 /* Calc.cpp in Sources */,
 				EC6646E828B468C40056D318 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
